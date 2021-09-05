@@ -1,0 +1,49 @@
+.input {
+  border: 1px solid black;
+  background: rgb(240, 250, 240);
+  padding: 20px;
+  margin-bottom: 70px;
+  width: 500px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.title {
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+
+#output {
+  display:none;
+  background: rgb(240, 240, 255);
+  padding: 10px;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td {
+  vertical-align: top;
+  padding: 2px;
+  border-bottom: 1px solid darkgray;
+}
+
+.item{
+	margin: 10px;
+}
+
+.logo{
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+	margin-bottom: 50px;
+	width: 160px;
+}
+
+#resultDesc{
+	line-height: 30px;
+}
+
+

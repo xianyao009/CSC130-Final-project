@@ -1,0 +1,29 @@
+body{
+	  
+  background: rgb(240, 240, 255);
+  padding: 10px;
+}
+
+.logo2{
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+	margin-top: 80px;
+	width: 190px;
+}
+
+.home{
+	text-align: center;
+	font-family: arial;
+}
+
+.clickToSearch{
+	text-decoration: none;
+}
+
+.clickToSearch:hover{
+	font-weight: bold;
+}
+
+
+

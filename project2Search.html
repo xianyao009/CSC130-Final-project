@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Soccer Wiki - Search</title>
+		<link rel="icon" href="https://image.flaticon.com/icons/svg/123/123443.svg">
+		<link href="project2Search.css" type="text/css" rel="stylesheet">
+		<script src="project2.js" defer></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<a href="project2Home.html"><img class="logo" src="https://smimgs.com/images/assets/soccerwiki-logo.png"></a>
+	</head>
+	
+	<body>
+		<div class="input">
+			<div class="title">Enter player name below:</div>
+				<div class="item">First Name: <input id="firstName" type="text"></div>
+				<div class="item">Last Name: <input id="lastName" type="text"></div>
+				<div class="item"><button onclick="submit()">Submit</button></div>
+		</div>
+		<div id="output">
+			<div class="title">Results</div>
+			<table>
+				<tbody>
+					<tr>
+						<td class="title">Photo:</td>
+						<td><img width="250" id="resultThumb"></td>
+					</tr>
+					<tr>
+						<td class="title">Player Name:</td>
+						<td id="resultName">&nbsp;</td>
+					</tr>
+					<tr>
+						<td class="title">Current Team:</td>
+						<td id="resultTeam">&nbsp;</td>
+					</tr>
+					<tr>
+						<td class="title">Date of birth:</td>
+						<td id="resultDOB">&nbsp;</td>
+					</tr>
+					<tr>
+						<td class="title">Nationality:</td>
+						<td id="resultNationality">&nbsp;</td>
+					</tr>
+					<tr>
+						<td class="title">Kit Number:</td>
+						<td id="resultNumber">&nbsp;</td>
+					</tr>
+					<tr>
+						<td class="title">Position:</td>
+						<td id="resultPosition">&nbsp;</td>
+					</tr>
+					<tr>
+						<td class="title">Height:</td>
+						<td id="resultHeight">&nbsp;</td>
+					</tr>
+					<tr>
+						<td class="title">Weight:</td>
+						<td id="resultWeight">&nbsp;</td>
+					</tr>
+					<tr>
+						<td class="title">Description:</td>
+						<td id="resultDesc">&nbsp;</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</body>
+</html>
