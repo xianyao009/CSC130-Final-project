@@ -15,7 +15,7 @@ function submit() {
 	let firstName = $("#firstName").val();
 	let lastName = $("#lastName").val();
 	
-	let url = "https://www.thesportsdb.com/api/v1/json/1/searchplayers.php?p=";
+	let url = "https://www.thesportsdb.com/api/v1/json/2/searchplayers.php?p=";
 	let newurl = url + firstName + "%20" + lastName;
 	$.get(newurl, function(data){
 		
